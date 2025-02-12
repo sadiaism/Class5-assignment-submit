@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const homepage =() => {
     return(
-        <div>
+        <div className="flex flex-col justify-center items-center text-[44px] font-bold mt-[44px] gap-[32px]">
             <ul>
             <li>
             <Link href="/About" target="_blank">About</Link>
